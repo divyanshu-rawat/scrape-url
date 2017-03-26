@@ -16,7 +16,9 @@
 	            $('.graph_call_info').on('click',function () {
 
 					$('.loading').show();
-					$('.clear_info').empty();
+					$('.my_data').empty();
+					$('.meta_data').empty();
+
 
 
 	            		var url= $("#comment").val();
