@@ -1,7 +1,5 @@
 ## URLParser
 
-##
-
 [For Live Demo](https://myurlparserapplication.herokuapp.com/)
 
 ##
