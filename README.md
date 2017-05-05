@@ -19,6 +19,7 @@
 ### Description 
 
 * The first time someone shares a link, the Facebook crawler will scrape the HTML at that URL to gather information about the   type of URL Entered.
+* Providing context information about links (e.g. like Facebook or Telegram integrate inserted links, recognizing it as a       video, a piece of news, a document...)
 
 ##
 
