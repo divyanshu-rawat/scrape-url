@@ -67,3 +67,7 @@
 
 ![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/parser.png)
 
+* Sample Data
+
+![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/data.png)
+
