@@ -1,4 +1,3 @@
-## URLParser
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
@@ -65,7 +64,7 @@ Live Application - https://myurlparserapplication.herokuapp.com/
 
 * Main Application.
 
-![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/parser.png)
+![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/snapshot/scrape.gif)
 
 * Sample Data
 
