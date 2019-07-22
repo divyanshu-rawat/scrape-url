@@ -1,17 +1,15 @@
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+### Application Workflow.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/snapshot/scrape.gif)
 
-[![forthebadge](https://forthebadge.com/images/badges/compatibility-ie-6.svg)](https://forthebadge.com)
+
+![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/data.png)
+
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-##
-
-### Live Application
-
-Live Application - https://myurlparserapplication.herokuapp.com/
+Application URL - https://myurlparserapplication.herokuapp.com/
 
 ##
 
@@ -59,14 +57,4 @@ Live Application - https://myurlparserapplication.herokuapp.com/
 
 ##
 
-
-#### some examples
-
-* Main Application.
-
-![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/snapshot/scrape.gif)
-
-* Sample Data
-
-![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/data.png)
 
