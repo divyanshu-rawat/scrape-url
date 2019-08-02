@@ -16,7 +16,7 @@ $(document).ready(function () {
                     $(".loading").hide();
                     const img_url = data.id.replace("watch?v=", "embed/");
                     $(".i-frame").append(
-                        "<iframe type='text/html' width='260' height='180'" +
+                        "<iframe type='text/html' width='720' height='480'" +
                         "src=" +
                         img_url +
                         " frameborder='0' > </iframe>"
