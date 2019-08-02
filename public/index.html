@@ -2,91 +2,40 @@
 <html>
 
 <head>
-    <title>Facebook Login JavaScript Example</title>
-    <meta charset="UTF-8">
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-       <script src = "facebook.js"></script>
-	  
+	<title>Facebook Login JavaScript Example</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="facebook.js"></script>
 </head>
 
 <body>
-    <script>
+	<script>
         // This is called with the results from from FB.getLoginStatus().
-       
-    </script>
-
-    <!--
-  Below we include the Login Button social plugin. This button uses
-  the JavaScript SDK to present a graphical Login button that triggers
-  the FB.login() function when clicked.
--->
-
-<div class="col-lg-12">
-
-    
-    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="margin-top:2%;">
-
-    <fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();">
-    </fb:login-button>
-
-    <div id="status" style="margin-top:5px;">
-
-    </div>
-
-
-
-		<div class="col-lg-12" style="padding-left:0px;">
-		    <div class="form-group col-lg-5" style="margin-top:5px;padding-left:0px;">
-		 		<label for="comment">Comment:</label>
-		  		<textarea class="form-control" rows="3" id="comment" placeholder="https://www.youtube.com/watch?v=vFN3eNe0_Hs"></textarea>
+	</script>
+	<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="margin-top:2%;">
+			<fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();">
+			</fb:login-button>
+			<div id="status" style="margin-top:5px;">
+			</div>
+			<div class="col-lg-12" style="padding-left:0px;">
+				<div class="form-group col-lg-5" style="margin-top:5px;padding-left:0px;">
+					<label for="comment">Comment:</label>
+					<textarea class="form-control" rows="3" id="comment" placeholder="https://www.youtube.com/watch?v=vFN3eNe0_Hs"></textarea>
+				</div>
+			</div>
+			<button type="button" class="btn btn-primary graph_call_info" style="margin-top:5px;">SCRAPE</button>
+			<div class="col-lg-12 loading" style="display:none;margin-top:5px;">
+				<h4>Loading....</h4>
+				<p>PLease Wait</p>
+			</div>
+			<div class="col-lg-12 my_data" style="margin-top:10px;padding-left:0px">
+			</div>
+			<div class="col-lg-12 meta_data" style="padding-left:0px;">
 			</div>
 		</div>
-
-	   <button type="button" class="btn btn-primary graph_call_info" style="margin-top:5px;">Scrape Url</button>
-
-
-	    <div class="col-lg-12 loading" style="display:none;margin-top:5px;">
-	    		<h4>Loading....</h4>
-	    		<p>PLease Wait</p>
-	    </div>
-
-	 
-
-				    <div class="col-lg-12 my_data" style="margin-top:10px;padding-left:0px">
-				    	
-
-				    </div>
-
-				    <div class="col-lg-12 meta_data" style="padding-left:0px;">
-				    	
-
-				    </div>
-
-
-
-			 <!--  <p>Graph Api Generated Data<p>     
-
-			  <table class="table" style="margin-top:5px;">
-			    <thead>
-			      <tr>
-			        <th>Name</th>
-			        <th>Birthday</th>
-			        <th>Email</th>
-			        <th>Education</th>
-			      </tr>
-			    </thead>
-			    <tbody class="generated_data">
-			    </tbody>
-			  </table> -->
-
-
-
-    </div>
-
-
-
-</div>
+	</div>
 </body>
 
 </html>
