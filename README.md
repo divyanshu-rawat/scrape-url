@@ -3,7 +3,7 @@
 
 ![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/Assets/scrape.gif)
 
-Live App - https://myurlparserapplication.herokuapp.com/
+Live App - https://scrap-url.herokuapp.com/
 
 ##
 
