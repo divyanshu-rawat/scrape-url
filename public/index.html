@@ -5,6 +5,7 @@
 	<title>Facebook Login JavaScript Example</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="facebook.js"></script>
 </head>
@@ -15,24 +16,30 @@
 	</script>
 	<div class="col-lg-12">
 		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="margin-top:2%;">
-			<fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();">
-			</fb:login-button>
-			<div id="status" style="margin-top:5px;">
-			</div>
-			<div class="col-lg-12" style="padding-left:0px;">
+			<!-- <div class="col-lg-12" style="padding-left:0px;">
 				<div class="form-group col-lg-5" style="margin-top:5px;padding-left:0px;">
-					<label for="comment">Comment:</label>
+					<label for="comment">Please enter a YouTube url:</label>
 					<textarea class="form-control" rows="3" id="comment" placeholder="https://www.youtube.com/watch?v=vFN3eNe0_Hs"></textarea>
 				</div>
+			</div> -->
+
+			<div class="input-group col-lg-8">
+				<input type="search" class="form-control" id="url" placeholder="Please Enter YouTube URL Format(https://youtu.be/GrsEAvRerTg)">
+				<span class="input-group-btn">
+					<button class="btn btn-info graph_call_info" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true">
+						</span> SCRAP</button>
+				</span>
 			</div>
-			<button type="button" class="btn btn-primary graph_call_info" style="margin-top:5px;">SCRAPE</button>
-			<div class="col-lg-12 loading" style="display:none;margin-top:5px;">
-				<h4>Loading....</h4>
-				<p>PLease Wait</p>
+			<div class="alert alert-danger warning col-lg-6">
+				<strong>Info!</strong> Please enter the url!
 			</div>
-			<div class="col-lg-12 my_data" style="margin-top:10px;padding-left:0px">
+			<div class="alert alert-info loading col-lg-6">
+				<strong>Loading!</strong> Please Wait.
 			</div>
-			<div class="col-lg-12 meta_data" style="padding-left:0px;">
+
+			<div class="col-lg-12 i-frame" style="margin-top:10px;padding-left:0px">
+			</div>
+			<div class="col-lg-6 meta_data" style="padding-left:0px;">
 			</div>
 		</div>
 	</div>

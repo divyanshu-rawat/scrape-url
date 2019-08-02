@@ -1,22 +1,16 @@
 
 ### Application Workflow.
 
-![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/snapshot/scrape.gif)
+![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/Assets/scrape.gif)
 
-
-![alt tag](https://github.com/divyanshu-rawat/URLParser/blob/master/public/snapshot/data.png)
-
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-Application URL - https://myurlparserapplication.herokuapp.com/
+Live App - https://myurlparserapplication.herokuapp.com/
 
 ##
 
 ### Description 
 
-* The first time someone shares a link, the Facebook crawler will scrape the HTML at that URL to gather information about the   type of URL Entered.
-* Providing context information about links (e.g. like Facebook or Telegram integrate inserted links, recognizing it as a       video, a piece of news, a document...)
+* The first time someone shares a link, the Facebook crawler will scrape the HTML at that URL to gather information about the type of URL Entered.
+* Providing context information about links (e.g. like Facebook or Telegram integrate inserted links, recognizing it as a video, a piece of news, a document...)
 
 ##
 

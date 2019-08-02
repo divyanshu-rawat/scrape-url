@@ -1,0 +1,14 @@
+.graph_call_info {
+  color: white;
+  background: black !important;
+  border-color: black !important;
+}
+
+.graph_call_info:hover {
+  background: rgb(26, 24, 24) !important;
+}
+
+.loading, .warning {
+  display: none;
+  margin-top: 5px;
+}
