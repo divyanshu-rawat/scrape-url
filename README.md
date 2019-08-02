@@ -1,5 +1,6 @@
 
-### Application Workflow.
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
 
 ![alt tag](https://github.com/divyanshu-rawat/url-preview-generator/blob/master/Assets/scrape.gif)
 
