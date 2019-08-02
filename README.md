@@ -1,7 +1,7 @@
 
 ### Application Workflow.
 
-![alt tag](https://github.com/divyanshu-rawat/Url-Parser/blob/master/public/Assets/scrape.gif)
+![alt tag](https://github.com/divyanshu-rawat/url-preview-generator/blob/master/Assets/scrape.gif)
 
 Live App - https://scrap-url.herokuapp.com/
 
